@@ -12,8 +12,8 @@ export const Hero = () => {
                 </div>
                 <div className="w-full">
                     <picture>
-                        <source srcSet="/cuttubus.png" media="(min-width: 690px)" />
-                        <img src="/BigTubus.png" alt="bigtubus" />
+                        <source srcSet="./cuttubus.png" media="(min-width: 690px)" />
+                        <img src="./BigTubus.png" alt="bigtubus" />
                     </picture>
                 </div>
             </div>

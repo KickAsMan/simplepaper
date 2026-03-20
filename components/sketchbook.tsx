@@ -10,8 +10,8 @@ export const Sketchbook = () => {
             </div>
             <div className="">
                 <picture>
-                    <source srcSet="/sketch-img.png" media="(min-width: 690px)" />
-                    <img src="/sketchbook-tablet.png" alt="sketchbook" />
+                    <source srcSet="./sketch-img.png" media="(min-width: 690px)" />
+                    <img src="./sketchbook-tablet.png" alt="sketchbook" />
                 </picture>
             </div>
         </div>
