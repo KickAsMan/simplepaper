@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export const Products = () => {
     return (
-        <div className="flex justify-center pt-20 pb-20 max-w-[1110px] m-auto gap-5 max-[750px]:flex-col">
+        <div className="flex justify-center pt-20 pb-20 max-w-[1110px] m-auto gap-5 max-[600px]:flex-col">
             <div className="flex justify-between items-center gap-5 max-[1150px]:flex-col">
                 <div className="flex-col flex items-start h-110 ">
                     <img src="./product1cut.jpg" alt="product1" />

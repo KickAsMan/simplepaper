@@ -7,7 +7,7 @@ import { Youtube } from "@/public/youtube";
 
 export const Footer = () => {
     return (
-        <div className="bg-gray-800 flex justify-around py-5">
+        <div className="bg-gray-800 flex justify-around items-center py-5 ">
             <div>
                 <Logo className="stroke-white" />
             </div>

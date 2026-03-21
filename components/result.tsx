@@ -2,23 +2,23 @@
 export const Result = () => {
     return (
         <div className="bg-[#EBEBEB] ">
-            <div className="max-w-[1110px] m-auto">
+            <div className="max-w-[1110px] m-auto px-5">
                 <div className="justify-between flex max-[860px]:flex-col max-[860px]:px-5 pt-20 mb-20">
-                    <div className="flex justify-center items-center border-t border-gray-300"  >
+                    <div className="flex justify-center items-center border-t border-gray-300 pt-5"  >
                         <img src="./V1.png" alt="V1" width={200} />
                         <div>
                             <h1>V.1</h1>
                             <p>Результат вашего<br />обучения</p>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center border-t border-gray-300">
+                    <div className="flex justify-center items-center border-t border-gray-300 pt-5">
                         <img src="./V2.png" alt="V1" width={200} />
                         <div>
                             <h1>V.2</h1>
                             <p>Результат вашего<br />обучения</p>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center border-t border-gray-300">
+                    <div className="flex justify-center items-center border-t border-gray-300 pt-5">
                         <img src="./V3.png" alt="V1" width={200} />
                         <div>
                             <h1>V.3</h1>
