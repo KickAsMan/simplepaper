@@ -1,4 +1,5 @@
 
+import { Footer } from "./footer";
 import { Hero } from "./hero";
 import { Products } from "./products";
 import { Result } from "./result";
@@ -12,6 +13,7 @@ export const Body = () => {
             <Products />
             <Sponsors />
             <Sketchbook />
+            <Footer />
         </main>
     );
 };

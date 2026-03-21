@@ -20,7 +20,7 @@ const buttonVariants = cva(
           "bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40",
         link: "text-primary underline-offset-4 hover:underline",
         productButton: " rounded-none text-xl bg-transparent text-purple-400 *:stroke-purple-400 hover:bg-transperent hover:text-purple-800 hover:*:stroke-purple-800 active:bg-purple-300/50 active:text-purple-400 active:*:stroke-purple-400 focus:bg-transperent focus:text-purple-800 focus:*:stroke-purple-800",
-        otherButtons: "mx-3 hover:bg-transparent *:stroke-[#4C5866] hover:*:stroke-purple-400 rounded-none active:bg-purple-300/50 active:*:stroke-[#4C5866] focus:*:stroke-purple-950/80 ",
+        otherButtons: " hover:bg-transparent *:stroke-[#4C5866] hover:*:stroke-purple-400 rounded-none active:bg-purple-300/50 active:*:stroke-[#4C5866] focus:*:stroke-purple-950/80 ",
         headerButton: "text-lg mx-3 rounded-none hover:bg-transparent hover:text-purple-400 active:bg-purple-300/50 active:text-current focus:text-purple-950/80",
         largeButton: " w-[255] h-[70] mt-10 rounded-none text-xl border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white active:bg-purple-300/50 active:text-purple-400 focus:bg-purple-950/80 focus:text-white",
       },
