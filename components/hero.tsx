@@ -7,7 +7,7 @@ export const Hero = () => {
             <div className="w-full flex justify-center max-[950px]:flex-col max-[950px]:px-10 md:px-30 pt-15">
                 <div>
                     <h1 className="text-5xl text-gray-500">Простые вещи.<br></br> Из бумаги</h1>
-                    <p className="text-lg mt-10 text-gray-600 w-[445px] h-[110]">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. </p>
+                    <p className="text-lg mt-10 text-gray-600">Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. </p>
                     <Button variant="largeButton" className=" w-[255] h-[70]">Каталог</Button>
                 </div>
                 <div className="w-full max-[950px]:mt-5 flex">
