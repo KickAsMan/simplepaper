@@ -41,7 +41,7 @@ export const Header = () => {
                 </div>
                 <div className="max-md:order-2 pr-5">
                     <Button variant="otherButtons" onClick={() => setInputVisible(!inputVisible)}><SearchLogo /></Button>
-                    <SearchInput className={`transition-all duration-400 ease-in-out ${inputVisible ? " max-[500px]:w-15 max-w-[224px] mt-0 mb-0" : "max-w-0 pointer-events-none"}`} placeholder="Найти" />
+                    <SearchInput className={`transition-all duration-400 ease-in-out ${inputVisible ? " max-[500px]:w-15 w-[224px] mt-0 mb-0" : "w-0 pointer-events-none"}`} placeholder="Найти" />
                     <Button variant="otherButtons"><ExitLogo /></Button>
                 </div>
 
